@@ -9,4 +9,5 @@ updates:
       interval: "daily"
     allowed_updates:
       - match:
-          dependency_name: "OpenTelemetry"
+        update_type: all
+        dependency_name: "OpenTelemetry"
