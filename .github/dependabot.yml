@@ -10,3 +10,5 @@ updates:
     allow:
       - dependency-name: "Newtonsoft"
         dependency-type: "all"
+      - dependency-name: "Microsoft.Diagnostics.NETCore.Client"
+        dependency-type: "all"
