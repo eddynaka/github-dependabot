@@ -8,5 +8,4 @@ updates:
     schedule:
       interval: "daily"
     allow:
-      - match:
-        dependency-name: "Newtonsoft"
+      - dependency-name: "Newtonsoft"
