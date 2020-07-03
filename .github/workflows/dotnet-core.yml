@@ -23,9 +23,12 @@ jobs:
         key: ubuntu-nuget-${{ hashFiles('**/packages.lock.json') }}
         restore-keys: |
           ubuntu-nuget-
+
     - name: Install dependencies
       run: dotnet restore
+
     - name: Build
       run: dotnet build --configuration Release --no-restore
+      
     - name: Test
       run: dotnet test --no-restore --verbosity normal
